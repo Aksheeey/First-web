@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Web Project</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #1e90ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #0d75d8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome, Akshai!</h1>
+  <p>This is your first web project 🚀</p>
+  <button onclick="greet()">Click Me</button>
+
+  <script>
+    function greet() {
+      alert("You just clicked the button. You're officially a Web Dev now! 🔥");
+      console.log("Akshai clicked the button!");
+    }
+  </script>
+</body>
+</html>
